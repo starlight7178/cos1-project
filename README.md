@@ -1,4 +1,4 @@
-# 🚀 Welcome to Project & Portfolio!
+# 🚀 Welcome to Project & Portfolio!  
 
 This repository will be used to keep track of research and development conducted in this class. Follow the instructions below to get started.
 cos
@@ -22,7 +22,7 @@ After completing the above steps, feel free to begin updating this readme where 
 
 # Project & Portfolio 1
 
-### Student First & Last Name
+### Tara Yates
 
 Hello my name is [enter name]. I am a student from [where are you from?]. The purpose of this repository is to practice development using version control. This work will help me begin to build a portfolio of skills and accomplishment that can be shared in the future.
 

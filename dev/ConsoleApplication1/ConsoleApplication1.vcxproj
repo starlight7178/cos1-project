@@ -201,6 +201,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ConsoleApplication1.cpp" />
+    <ClCompile Include="InventoryManager.cpp" />
+    <ClCompile Include="JewelryBox.cpp" />
+    <ClCompile Include="JewelryItem.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="InventoryManager.h" />
+    <ClInclude Include="JewelryBox.h" />
+    <ClInclude Include="JewelryItem.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
