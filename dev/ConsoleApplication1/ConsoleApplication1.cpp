@@ -2,7 +2,7 @@
 //
 
 #include <iostream>
-#include "JewelryItem.h"
+#include "JewelryItem.h
 #include "JewelryBox.h"
 #include "InventoryManager.h"
 
