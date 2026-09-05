@@ -1,11 +1,12 @@
-#include <iostream>
-#include "JewelryItem.h"
+#pragma once
+#include <string>
 
-using namespace std;
-
-void JewelryItem::Display()
+class JewelryItem
 {
-	cout << "\nItem Name:" << name << endl;
-	cout << "Type: " << type << endl;
-	cout << "Value: $" << value << endl;
-}
+public:
+	std::string name;
+	std::string type;
+	double value;
+
+	void display();
+};

@@ -2,10 +2,29 @@
 //
 
 #include <iostream>
+#include "JewelryItem.h"
+#include "JewelryBox.h"
+#include "InventoryManager.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    InventoryManager manager;
+    JewelryItem item;
+    JewelryBox box;
+
+    manager.DisplayMenu();
+
+    item.name = "Gold Necklace";
+    item.type = "Necklace";
+    item.value = 150.00;
+
+    box.ownerName = "Tara";
+    box.itemCount = 1;
+
+    item.display();
+    box.DisplayBox();
+
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

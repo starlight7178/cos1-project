@@ -1,12 +1,10 @@
 #include "InventoryManager.h"
 #include <iostream>
 
-using namespace std;
-
 void InventoryManager::DisplayMenu()
 {
-	cout << "\n=== Jewelry Box Inventory====" << endl;
-	cout << "1. Add Item" << endl;
-	cout << "2. View Items" << endl;
-	cout << "3. Exit" << endl;
+	std::cout << "\n===Jewelry Box Inventory===" << std::endl;
+	std::cout << "1. Add Item" << std::endl;
+	std::cout << "2. View Items" << std::endl;
+	std::cout << "3. Exit" << std::endl;
 }
