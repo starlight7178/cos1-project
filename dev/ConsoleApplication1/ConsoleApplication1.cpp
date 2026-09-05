@@ -12,19 +12,37 @@ int main()
     JewelryItem item;
     JewelryBox box;
 
-    manager.DisplayMenu();
-
     item.name = "Gold Necklace";
     item.type = "Necklace";
     item.value = 150.00;
 
-    box.ownerName = "Tara";
-    box.itemCount = 1;
+        box.ownerName = "Tara";
+        box.itemCount = 1;
 
-    item.display();
-    box.DisplayBox();
+        int choice = 0;
 
-    return 0;
+        while (choice != 3) {
+            manager.DisplayMenu();
+            std::cout << "\nEnter choice:";
+            std::cin >> choice;
+
+            if (choice == 1)
+            {
+                std::cout << " Add item selected" << std::endl;
+            }
+            else if (choice == 2)
+            {
+                item.display();
+                box.DisplayBox();
+            }
+            else if (choice == 3)
+            {
+                std::cout << "Goodbye!" << std::endl;
+            }
+            else
+            {
+                std::cout << "Invalid choice!" << std::endl;
+            }
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
