@@ -21,7 +21,8 @@ int main()
 
         int choice = 0;
 
-        while (choice != 3) {
+        while (choice != 3)
+        {
             manager.DisplayMenu();
             std::cout << "\nEnter choice:";
             std::cin >> choice;
@@ -43,7 +44,7 @@ int main()
             {
                 std::cout << "Invalid choice!" << std::endl;
             }
-}
+        };
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu

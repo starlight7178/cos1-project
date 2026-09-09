@@ -6,7 +6,8 @@ class JewelryItem
 public:
 	std::string name;
 	std::string type;
+	std::string material;
 	double value;
 
-	void display();
+	void Display();
 };
