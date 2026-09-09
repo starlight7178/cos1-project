@@ -2,14 +2,16 @@
 
 #include <string>
 
-using namespace std;
 
 
 class JewelryBox
 {
 public:
-	string ownerName;
+	std::string ownerName;
+	std::string woodType;
 	int itemCount;
+	double estimatedCost;
+	int completionPercent;
 
 	void DisplayBox();
 };
