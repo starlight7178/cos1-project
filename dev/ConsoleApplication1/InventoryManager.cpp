@@ -3,8 +3,9 @@
 
 void InventoryManager::DisplayMenu()
 {
-	std::cout << "\n===Jewelry Box Inventory===" << std::endl;
-	std::cout << "1. Add Item" << std::endl;
-	std::cout << "2. View Items" << std::endl;
-	std::cout << "3. Exit" << std::endl;
+	std::cout << "\n===Jewelry Box Project Manager===" << std::endl;
+	std::cout << "1. Add JewelryItem" << std::endl;
+	std::cout << "2. View Jewelry Item" << std::endl;
+	std::cout << "3. View Jewelry Box Project" << std::endl;
+	std::cout << "4. Exit" << std::endl;
 }
