@@ -14,14 +14,18 @@ int main()
 
     item.name = "Gold Necklace";
     item.type = "Necklace";
+    item.material = "Gold";
     item.value = 150.00;
 
         box.ownerName = "Tara";
+        box.woodType = "Oak";
         box.itemCount = 1;
+        box.estimatedCost = 125.00;
+        box.completionPercent = 45;
 
         int choice = 0;
 
-        while (choice != 3)
+        while (choice != 4)
         {
             manager.DisplayMenu();
             std::cout << "\nEnter choice:";
@@ -29,21 +33,26 @@ int main()
 
             if (choice == 1)
             {
-                std::cout << " Add item selected" << std::endl;
+                std::cout << "\nFeature coming soon!" << std::endl;
             }
             else if (choice == 2)
             {
-                item.display();
+                item.Display();
                 box.DisplayBox();
             }
             else if (choice == 3)
             {
-                std::cout << "Goodbye!" << std::endl;
+                std::cout << "\nViewing Jewelry Box Project..." << std::endl;
+                box.DisplayBox();
+            }
+                std::cout << "\nGoodbye!" << std::endl;
             }
             else
             {
-                std::cout << "Invalid choice!" << std::endl;
+                std::cout << "Invalid choice! Please try again." << std::endl;
             }
+
+            return 0;
         };
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
