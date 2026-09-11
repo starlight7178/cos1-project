@@ -13,6 +13,7 @@ public:
 	double estimatedCost;
 	int completionPercent;
 
+
 	void DisplayBox();
 };
 

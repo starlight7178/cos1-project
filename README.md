@@ -30,8 +30,9 @@ this week I created the initial structure for my Jewelry Box inventory applicati
 I plan to improve the menu system and allow users to add and manage jewelry items.
 
 ### Week 2
+Milestone 2  
+I expanded my week 1 Jewelry Inventory project  into a woodworking project management application. The original project used  the classes JewelryItem, JewelryBox, and inventory manager. This week I am redesigning those classes to support woodworking  projects, material tracking and project progress management. I am also improving the menu system and adding clearer user prompts and validation based on the week's usability and accessibility lessons.
 
-My next stand up will go here...
 
 ### Week 3
 
